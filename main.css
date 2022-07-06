@@ -1,0 +1,122 @@
+@font-face {
+  font-family: ammar;
+  src: local("ammar"), local(ammar), url("ammar.ttf");
+}
+a {
+  text-decoration: none;
+}
+
+body {
+  margin: 0;
+  font-family: ammar;
+  padding: 0;
+  background: #e0e8ff;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-image: url(./images/pattern-background-desktop.svg);
+}
+body .card {
+  border-radius: 20px;
+  width: 100%;
+  height: 1000px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+body .card .card-component {
+  width: 450px;
+  height: 700px;
+  background-color: #fff;
+  border-radius: 30px;
+}
+body .card .card-component .card-hero {
+  border-radius: 15px 15px 0px 0px;
+}
+body .card .card-component .card-title {
+  color: #000080;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+body .card .card-component .card-paragraph {
+  color: #7f8095;
+  height: 65px;
+  width: 293px;
+  text-align: center;
+  margin: auto;
+  font-size: 16px;
+  padding-bottom: 15px;
+}
+body .card .card-component .purchasing {
+  width: 350px;
+  height: 55px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  position: relative;
+  padding: 17px;
+  background-color: #f6f7fb;
+  border-radius: 8px;
+  cursor: pointer;
+}
+body .card .card-component .purchasing:hover {
+  transition: 0.3s;
+  background-color: #f8f9fe;
+}
+body .card .card-component .purchasing i {
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #dfe5fb;
+  border-radius: 30px;
+  color: #717da5;
+  margin-left: 15px;
+}
+body .card .card-component .purchasing h4 {
+  margin: 0;
+  width: 220px;
+  color: #252b4b;
+}
+body .card .card-component .purchasing span {
+  color: hsl(224deg, 16%, 67%);
+  font-size: 14px;
+}
+body .card .card-component .purchasing a {
+  display: flex;
+  align-content: center;
+  justify-content: end;
+  position: absolute;
+  right: 25px;
+  color: #4c00e9;
+}
+body .card .card-component .purchasing a:hover {
+  color: #7e74d5;
+}
+body .card a {
+  color: #fcf9ff;
+  font-weight: 600;
+  font-size: 16px;
+}
+body .card button {
+  width: 350px;
+  margin: auto;
+  display: flex;
+  height: 50px;
+  margin-top: 40px;
+  border: 0;
+  align-items: center;
+  justify-content: center;
+  background-color: #4c00e9;
+  color: #fff;
+  border-radius: 10px;
+  transition: 0.3s;
+}
+body .card button:hover {
+  background-color: #766cf1;
+  transition: 0.3s;
+  cursor: pointer;
+  box-shadow: 0px 10px 8px -2px rgba(0, 0, 0, 0.19);
+}/*# sourceMappingURL=main.css.map */
